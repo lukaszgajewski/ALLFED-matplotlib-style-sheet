@@ -1,7 +1,24 @@
 # To check more avaialble options see:
 # https://matplotlib.org/tutorials/introductory/customizing.html
 
-text.color : (0.2,0.2,0.2)
+# BOXPLOT
+boxplot.notch : True
+
+boxplot.meanline : True
+boxplot.flierprops.color:           3A913F
+boxplot.flierprops.markeredgecolor: 3A913F
+boxplot.boxprops.color:     3A913F
+boxplot.whiskerprops.color:     3A913F
+boxplot.capprops.color:     3A913F
+boxplot.medianprops.color:     3A913F
+boxplot.meanprops.color:         3A913F  
+
+
+# FONT
+font.family  : serif
+
+# TEXT
+text.color : dimgrey
 
 # AXES
 axes.titlesize : 16
@@ -13,6 +30,7 @@ axes.spines.top : False
 axes.spines.right : False
 axes.spines.bottom : False
 axes.spines.left : False
+axes.axisbelow:True
 
 # GRID
 axes.grid : True
@@ -20,26 +38,27 @@ grid.alpha : 0.6
 grid.linestyle : -
 grid.linewidth : 0.6
 
-
 # LINES
-axes.prop_cycle : cycler('color', [ '3A913F', '75787B', 'DC582A', 'F0B323', '3D87CB']) #hex colours
-lines.linewidth : 1.5
+axes.prop_cycle : cycler('color', [ '3A913F', '363631', 'DC582A', 'F0B323', '3D87CB']) #hex colours
+lines.linewidth : 2
 lines.markeredgewidth : 0.0
 
 # SCATTER PLOT
 scatter.marker : .
 
 # TICKS
-xtick.labelsize : 13
-xtick.color : (0.2,0.2,0.2)
-xtick.direction : in
-ytick.labelsize : 13
-ytick.color : (0.2,0.2,0.2)
-ytick.direction : in
+xtick.bottom: False
+ytick.left:False
+xtick.color:dimgrey
+ytick.color:dimgrey
+
+# Legend
+legend.framealpha:1
+
 
 # FIGURE OUTPUT 
-figure.figsize  : 10, 10
-figure.dpi : 200
+figure.figsize  : 10, 4
+figure.dpi : 150
 savefig.dpi : 300
 
 
