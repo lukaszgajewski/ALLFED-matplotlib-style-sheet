@@ -21,10 +21,8 @@ font.family  : serif
 text.color : dimgrey
 
 # AXES
-axes.titlesize : 16
-axes.labelsize : 14
 axes.edgecolor : (0.1,0.1,0.1) #Normalized RGB colours (from 0 to 1 instead of 0 to 255)
-axes.labelcolor : (0.1,0.1,0.1)
+axes.labelcolor : dimgrey
 axes.linewidth : 1
 axes.spines.top : False
 axes.spines.right : False
@@ -51,16 +49,22 @@ xtick.bottom: False
 ytick.left:False
 xtick.color:dimgrey
 ytick.color:dimgrey
+xtick.major.size:0.5
+ytick.major.size:0.5
+xtick.labelcolor:dimgrey
+ytick.labelcolor:dimgrey
 
 # IMAGE
-#image.cmap: PRGn 
+image.cmap: PRGn 
 
 # Legend
 legend.framealpha:1
+legend.edgecolor: dimgrey
+
 
 
 # FIGURE OUTPUT 
-figure.figsize  : 10, 4
+figure.figsize  : 12, 5
 figure.dpi : 150
 savefig.dpi : 300
 
