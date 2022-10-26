@@ -64,7 +64,7 @@ legend.edgecolor: dimgrey
 
 
 # FIGURE OUTPUT 
-figure.figsize  : 14, 6
+figure.figsize  : 12, 5
 figure.dpi : 150
 savefig.dpi : 300
 
