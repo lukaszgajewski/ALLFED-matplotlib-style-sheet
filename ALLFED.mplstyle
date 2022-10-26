@@ -34,9 +34,9 @@ axes.axisbelow:True
 
 # GRID
 axes.grid : True
-grid.alpha : 0.6
+grid.alpha : 0.4
 grid.linestyle : -
-grid.linewidth : 0.6
+grid.linewidth : 0.5
 
 # LINES
 axes.prop_cycle : cycler('color', [ '3A913F', '363631', 'DC582A', 'F0B323', '3D87CB']) #hex colours
@@ -51,6 +51,9 @@ xtick.bottom: False
 ytick.left:False
 xtick.color:dimgrey
 ytick.color:dimgrey
+
+# IMAGE
+#image.cmap: PRGn 
 
 # Legend
 legend.framealpha:1
