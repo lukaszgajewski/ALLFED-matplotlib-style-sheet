@@ -15,7 +15,7 @@ boxplot.meanprops.color:         3A913F
 
 
 # FONT
-font.family  : serif
+# font.family  : serif
 
 # TEXT
 text.color : dimgrey
@@ -55,7 +55,7 @@ xtick.labelcolor:dimgrey
 ytick.labelcolor:dimgrey
 
 # IMAGE
-image.cmap: PRGn 
+image.cmap: plasma_r 
 
 # Legend
 legend.framealpha:1
